@@ -1,4 +1,4 @@
-import { Clock, Wallet, TrendingUp, Sun, Moon } from "lucide-react";
+import { Clock, TrendingUp, Sun, Moon, HandCoins } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 import { Button } from "./Button";
@@ -16,7 +16,7 @@ export function Header() {
 
 				<div className="flex items-center gap-2">
 					<div className="bg-primary flex h-9 w-9 items-center justify-center rounded-full">
-						<Wallet size={20} className="text-primary-foreground" />
+						<HandCoins size={20} className="text-primary-foreground" />
 					</div>
 					<span className="text-lg">
 						<span className="text-muted-foreground font-medium">Financ</span>
@@ -29,6 +29,7 @@ export function Header() {
 						variant="secondary"
 						icon={TrendingUp}
 						onClick={() => void navigate('/')}
+						className="hover:border-primary hover:text-primary"
 					>
 						<span className="hidden sm:inline">Nova Simulação</span>
 					</Button>

@@ -2,13 +2,13 @@
   :root,
   [data-theme='light'] {
     --background: #f8fafc;
-    --foreground: #0f1729;
-    --primary: #925cf0;
+    --foreground: #020b0a;
+    --primary: #25e0a8;
     --primary-foreground: #f8fafc;
     --card: #fcfcfe;
     --border: rgba(9, 9, 11, 0.08);
-    --muted-primary: rgba(146, 92, 240, 0.5);
-    --muted-foreground: #64749a;
+    --muted-primary: rgba(121, 249, 221, 0.5);
+    --muted-foreground: #649a97;
     --secondary-button: #f1f5f9;
     --input: #fcfcfe;
     --skeleton-base-color: #e1e1f1;
@@ -16,15 +16,15 @@
   }
 
   [data-theme='dark'] {
-    --background: #0f0d16;
+    --background: #0a110f;
     --foreground: #fcfcfe;
-    --primary: #925cf0;
+    --primary: #25e0a8;
     --primary-foreground: #fcfcfc;
-    --card: #181622;
+    --card: #162626;
     --border: rgba(248, 250, 252, 0.4);
-    --muted-primary: rgba(146, 92, 240, 0.2);
+    --muted-primary: rgba(121, 249, 221, 0.5);
     --muted-foreground: #ad9fc8;
-    --secondary-button: #27272a;
+    --secondary-button: #272a2a;
     --input: #232131;
     --skeleton-base-color: #3e3e42;
     --skeleton-highlight-color: #434052;
